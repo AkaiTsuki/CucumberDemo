@@ -1,8 +1,11 @@
 package bdd.cucumber;
 
+import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+
+import java.util.List;
 
 import static org.junit.Assert.*;
 
@@ -26,9 +29,7 @@ public class CalculatorOutlineStepDef {
         this.result = cal.calculate(inputFormula);
     }
 
-
-    //    @Then("^the output should be \"([^\"]*)\"$")
-    @Then("^the output should be (\\d+)$")
+    @Then("^the output should be (-?\\d+)$")
     public void the_output_should_be(int expected) throws Throwable {
         assertEquals(expected, result);
     }
