@@ -1,4 +1,4 @@
-Feature: Add Two Number
+Feature: Basic - Add Two Number
   A simple calculator
 
   Scenario: Add two Integer

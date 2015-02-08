@@ -1,11 +1,9 @@
-package bdd.cucumber;
+package cucumber.features.outline.stepdefs;
 
-import cucumber.api.PendingException;
+import cucumber.impl.Calculator;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-
-import java.util.List;
 
 import static org.junit.Assert.*;
 

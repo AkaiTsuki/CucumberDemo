@@ -8,5 +8,5 @@ Feature: Data Table Feature
     When I have the operator "+"
     Then the calculator should return
       # why adding a header will cause exception
-      | 5      |
-      | 9      |
+      | 5 |
+      | 9 |

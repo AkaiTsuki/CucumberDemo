@@ -1,4 +1,4 @@
-package bdd.unittest;
+package unittest;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-Feature: Hello World
+Feature: Basic - Hello World
   A simple hello world feature
 
   Scenario: Print Hello World Message

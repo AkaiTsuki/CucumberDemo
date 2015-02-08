@@ -1,4 +1,4 @@
-package bdd.cucumber;
+package cucumber.impl;
 
 /**
  * Created by jiachiliu on 2/7/15.

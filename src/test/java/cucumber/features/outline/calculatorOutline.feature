@@ -1,4 +1,4 @@
-Feature: Calculate Two Numbers
+Feature: Scenario Outline - Calculate Two Numbers
   In order to help me for my daily work,
   As a bank clerk,
   I want to have a calculator two compute algebraic result
